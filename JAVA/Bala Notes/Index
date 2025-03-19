@@ -200,8 +200,27 @@ JAVA LEARNING SEQUENCE
    8.9. java.util.StringTokenizer
    8.10. Interning a String and SCP before and after java 7
    8.11. Wrapper Class
-   8.12. Autoboxing and Autounboxing
-   8.13. Revise + Check for any Version Change
+   8.11. Wrapper Class
+	8.11.1. Introduction
+	8.11.2. Constructors
+	8.11.3. Utility Methods
+		8.11.3.1. valueOf()
+		8.11.3.2. xxxValue()
+		8.11.3.3. parseXxx()
+		8.11.3.4. toString()
+	8.11.4. Dancing between String, Wrapper objects and Primitives
+	8.11.5. Partial java.lang package hierarchy
+	8.11.6. Void class 
+	8.11.7. Autoboxing and AutoUnboxing
+	8.11.8. Immutable nature of Wrapper class Object
+	8.11.9. Buffer concepti wrt Wrapper classes
+	8.11.10. Overloading wrt autoboxing, widening and var-arg methods
+		  8.11.10.1. Case 1 : Autoboxing VS Widening
+		  8.11.10.2. Case 2 : Widening VS Var-arg
+		  8.11.10.3. Case 3 : Autoboxing VS Var-arg
+		  8.11.10.4. Case 4 : W to AB & AB to W
+		  8.11.10.5. Case 5 : ObjectVersion
+   8.12. Revise + Check for any Version Change
 
 9. Garbage Collection
    9.1. Introduction
