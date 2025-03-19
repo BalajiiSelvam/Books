@@ -1,0 +1,230 @@
+JAVA LEARNING SEQUENCE
+----------------------
+
+1. Language Fundamentals
+   1.1. Identifiers
+   1.2. Reserved Words
+   1.3. Data Types
+   1.4. Literals
+   1.5. Arrays
+      	1.5.1. Introduction
+      	1.5.2. Array declaration
+      	1.5.3. Array creation
+      	1.5.4. Array Initialization
+      	1.5.5. Array declaration, creation and initialization in single line
+               1.5.6. length Vs length()
+      	1.5.7. Anonymous arrays
+      	1.5.8. Array element assignment
+      	1.5.9. Array variable assignment
+   1.6. Types of variables
+   1.7. Var-arg methods
+   1.8. main method
+   1.9. Command line arguments
+   1.10. Coding Standards
+   1.11. Revise + Check for any Version Change
+
+2. Operators and Assignments
+   2.1. Increment and Decrement Operator
+   2.2. Arithmetic Operator
+   2.3. String concatenation operator
+   2.4. Relational operator
+   2.5. Equality operators
+   2.6. instanceof operator
+   2.7. Bitwise operator
+   2.8. Short Circuit operator
+   2.9. Type cast operator
+   2.10. Assignment operator
+   2.11. Conditional operator
+   2.12. new operator
+   2.13. [] operator
+   2.14. operator precedence
+   2.15. Evaluation order
+   2.16. new Vs newInstance()
+   2.17. instanceof Vs isInstance()
+   2.18. ClassNotFoundException Vs NoClassDefFoundException
+   2.19.Revise + Check for any Version Change
+
+3. Declarations and Modifiers
+   3.1. Java Source File structure
+   3.2. Class level Modifiers
+   3.3. Member level Modifiers
+   3.4. Interface
+      	3.4.1. Introduction
+      	3.4.2. Interface declaration and implementation
+      	3.4.3. extends Vs implements
+      	3.4.4. Interface methods
+      	3.4.5. Interface variables
+      	3.4.6. Interface naming conflicts
+      	       3.4.6.1. method naming conflicts
+      	       3.4.6.2. variable naming conflicts
+      	3.4.5. Marker interface
+      	3.4.6. Adapter interface
+      	3.4.7. interface Vs abstract class vs concrete class
+      	3.4.8. Diff b/n abstract class and interface
+      	3.4.9. conclusions
+   3.5. Important questions
+   3.6. Revise + Check for any Version Change
+
+4. OOPS
+   4.1. Data hiding
+   4.2. Abstraction
+   4.3. Encapsulation
+   4.4. Tightly encapsulated class
+   4.5. Is-A Relationship
+   4.6. Has-A Relationship
+   4.7. Method Signature
+   4.8. Overloading
+   4.9. Overriding & Method Hiding
+   4.10. Static control flow
+   4.11. Instance control flow
+   4.12. constructors
+   4.13. Coupling (Tight and Loose )
+   4.14. Cohesion
+   4.15. Revise + Check for any Version Change
+
+5. Exception Handling
+   5.1. Introduction
+   5.2. Runtime stack mechanism
+   5.3. Default exception handling in java
+   5.4. Exception hierarchy
+   5.5. Customized exception handling using try-catch
+   5.6. control flow in try catch
+   5.7. Methods to print Exception information
+   5.8. try with multiple catch
+   5.9. finally block
+   5.10. final, finally, finalize()
+   5.11. Control flow in try-catch-finally
+   5.12. Control flow in nested try-catch-finally
+   5.13. Various possible combinations of try-catch-finally
+   5.14. throw keyword
+   5.15. throws keyword
+   5.16. Exception handling keywords summary
+   5.17. Various possible CE in exception handling
+   5.18. Customized or User defined Exceptions
+   5.19. Top-10 Exceptions
+   5.20. 1.7 Version Enhancements
+	 1) try with resource
+	 2) Multi-catch block
+   5.21. Revise + Check for any Version Change
+
+6. Multithreading
+   6.1. Introduction
+   6.2. Ways to define a thread
+      	6.2.1. Extending Thread class
+      	6.2.2. Implementing Runnable interface
+   6.3. Getting and Setting name of Thread
+   6.4. Thread Priorities
+   6.5. Methods to prevent Thread Execution
+      	6.5.1. wait()
+      	6.5.2. yield()
+      	6.5.3. join()
+   6.6. Synchronization
+   6.7. Inter Thread Communication
+   6.8. Deadlock
+   6.9. Daemon Threads
+   6.10. Multithreading enhancements
+   6.11. Revise + Check for any Version Change
+
+7. Inner Classes
+   7.1. Introduction
+   7.2. Normal or Regular inner classes 
+      	7.2.1. Accessing inner class code from static area of outer class 
+      	7.2.2. Accessing inner class code from instance area of outer class 
+      	7.2.3. Accessing inner class code from outside of outer class  
+      	7.2.4. The applicable modifiers for outer & inner classes 
+      	7.2.5. Nesting of Inner classes
+   7.3. Method Local Inner Class
+       	7.3.1. Anonymous inner class that extends a class 
+      	7.3.2. Anonymous Inner Class that implements an interface 
+      	7.3.3. Anonymous Inner Class that define inside method arguments 
+      	7.3.4.Difference between general class and anonymous inner classes 
+      	7.3.5. Explain the application areas of anonymous inner classes ? 
+   7.4. Static nested Class
+      	7.4.1. Comparison b/n normal or regular class and static nested class 
+   7.5. Various Possible combination of nested class and interface
+      	7.5.1. Class inside a Class
+      	7.5.2. interface inside an interface
+      	7.5.3. interface inside a Class
+        7.5.4. class inside an interface
+   7.6. Version Changes
+   7.7. Summary
+   7.8. Revise + Check for any Version Change
+
+8. java.lang Package
+   8.1. Introduction
+   8.2. Object Class
+      	8.2.0. Introduction
+      	8.2.1. toString()
+      	8.2.2. hashCode()
+      	8.2.3. toString() VS hashCode()
+      	8.2.4. equals()
+      	8.2.5. Overriding of equals()
+      	8.2.6. Relation between == and equals()
+      	8.2.7. Difference between == and equals()
+      	8.2.8. Contract between hashCode() and equals()
+      	8.2.9. Glimpse of class loading from JVM architecture and getClass()
+      	8.2.10. getClass(), .class and instanceof
+      	8.2.11. Some useful methods of Class class
+      	8.2.12. finalize()
+      	8.2.13. wait(), notify(), notifyAll()
+      	8.2.14. clone()
+      	8.2.15. Shallow Cloning VS Deep Cloning
+      	8.2.16. Shallow Copy, Deep Copy and Lazy Copy
+   8.3. String Class
+      	8.3.1. Case 1 : Immutability and Mutability of String and StringBuffer
+      	8.3.2. Case 2 : .equals() in String and StringBuffer
+      	8.3.3. Case 3 : Object Creation in Heap and SCP
+      	8.3.4. Important String Class Constructors (5)
+      	8.3.5. Important String Class Methods (12)
+      	8.3.6. String Object creation examples and twists
+      	8.3.7. How to create our own Immutable class ?
+      	8.3.8. final VS Immutability
+      	8.3.9. hashCodes in Strings ( Eg : 1,2,3 → Important )
+   8.4. StringBuffer Class
+      	8.4.1. Introduction
+      	8.4.2. Important Constructores (4)
+      	8.4.3. Important Methods (13)
+      	8.4.4. Small touch on AbstractStringBuilder
+   8.5. StringBuilder Class
+      	8.5.1. Introduction
+      	8.5.2. StringBuffer VS StringBuilder
+      	8.5.3. String VS StringBuffer VS StringBuilder
+      	8.5.4. Method Chaining
+   8.6. SCP, Advantages and Disadvantages
+   8.7. Important Questions
+          	8.7.1. Why are Strings Immutable but StringBuffers are not ?
+          	8.7.2. Why is the SCP concept available only for Strings but not for StringBuffer ?
+          	8.7.3. In addition to String Objects, are any other Objects are immutable in java ?
+            8.7.4. Find the output questions
+   8.8. Compact Strings ( Java 9 internal memory optimisation )
+   8.9. java.util.StringTokenizer
+   8.10. Interning a String and SCP before and after java 7
+   8.11. Wrapper Class
+   8.12. Autoboxing and Autounboxing
+   8.13. Revise + Check for any Version Change
+
+9. Garbage Collection
+   9.1. Introduction
+   9.2. Ways to make an Object eligible for GC
+      	9.2.1. nullifying the reference
+      	9.2.2. reassigning the reference
+      	9.2.3. objects created inside a method
+      	9.2.4. Island of isolation
+   9.3. Ways to request JVM to run GC
+      	9.3.1. Using System.gc()
+      	9.3.2. Using Runtime.getRuntime().gc()
+   9.4. Finalization - I
+   9.5. Memory Leaks
+   9.6. JVM Heap memory Structure
+      	9.6.1. Young Generation
+      	9.6.2. Old Generation
+      	9.6.3. Permanent Generation 
+   9.7. GC optimization commands
+   9.8. Finalization - II
+   9.9. Problems with finalize() method
+   9.10. Revise + Version Change
+
+10. Interview Questions
+
+
+
